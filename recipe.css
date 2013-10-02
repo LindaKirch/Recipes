@@ -1,0 +1,30 @@
+html {
+    background-color: #99CCCC;
+}
+
+body {
+    margin: 2em;
+padding: 4em;
+    font-family: "times new roman", Helvetica, Arial, serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    background-color: white;
+}
+h1 {
+text-decoration:underline;    
+}
+
+h1:before, h1:after {
+    content:'♦';
+}
+ul {
+    list-style-type: none;
+    padding-left:0;
+}
+.quantity {
+    width:6%;
+    display:inline-block
+}
+.quantity {
+    text-align:center
+}
